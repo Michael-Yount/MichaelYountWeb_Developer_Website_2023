@@ -19,15 +19,53 @@
 <link href="https://fonts.googleapis.com/css2?family=Fira+Code&display=swap" rel="stylesheet">
     <!-- Custom styles for this template -->
     <link href="heroes.css" rel="stylesheet">
+    <link href="navbar-fixed.css" rel="stylesheet">
+
+    <style>
+      body {
+        font-family: Fira Code;
+      }
+    </style>
   </head>
   <body>
     
 <main>
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Mike</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+      <ul class="navbar-nav me-auto mb-2 mb-md-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">LinkedIn</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">GitHub</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Projects</a>
+        </li>
+        <!--<li class="nav-item">
+          <a class="nav-link disabled">Disabled</a>
+        </li>-->
+      </ul>
+      <!--<form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>-->
+    </div>
+  </div>
+</nav>
   <h1 class="visually-hidden">Michael A. Yount Web Developer</h1>
 
   <div class="px-4 py-5 my-5 text-center">
-    <img class="d-block mx-auto mb-4" src="./reference/logos/MYlogo.png" alt="" width="95" height="95">
-    <h1 class="display-3 fw-bold">Michael A. Yount</h1>
+    <img class="d-block mx-auto mb-4" src="./reference/logos/MYlogo.png" alt="" width="110" height="110">
+    <h1 class="display-3 fw-bold">Michael Yount</h1>
     <div class="col-lg-8 mx-auto">
       <p class="lead mb-4">I am passionate about Web Development. I can blend interesting and engaging Web applications with intuitive and functional user experience. I am knowledgable in html5, CSS, JavaScript, SaSS and currently learning the MERN full stack development at MIT xPro Emeritus.</p>
       <p class="lead mb-6">I have a strong background in digital design and animation utilizing programs such as Unity Game engine, Blender 2d/3d modeling/animation, Photoshop, Trello and Gimp.</p>
