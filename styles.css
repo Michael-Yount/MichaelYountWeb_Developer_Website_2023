@@ -4,6 +4,9 @@ body {
   padding-top: 4.5rem;
   font-family: Fira Code;
 }
+.container-fluid {
+  background-color: rgba(24, 17, 17, 0.286);
+}
 
 
 @media (min-width: 992px) {
