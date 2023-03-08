@@ -10,7 +10,8 @@ body {
 
 }
 .headshot {
-  margin-right: 5em;
+  position: relative;
+  margin-right: 3em;
   padding: 5px;
   width: 15rem;
   height: 15rem;
@@ -18,6 +19,9 @@ body {
   border-radius: 10%;
   box-shadow:inset 0 .5em .5em rgba(0, 0, 0, 0.255), .5em .5em .5em rgba(0, 0, 0, 0.318);
 
+}
+.lead--1 {
+  text-align: left;
 }
 
 
