@@ -10,13 +10,13 @@ body {
 
 }
 .headshot {
-  margin-right: 3em;
+  margin-right: 5em;
   padding: 5px;
   width: 15rem;
   height: 15rem;
   float: left;
-  border-radius: 15%;
-  box-shadow:inset 0 1em 1em rgba(0, 0, 0, 0.211), 1em 1em 1em 1em rgba(0, 0, 0, 0.205);
+  border-radius: 10%;
+  box-shadow:inset 0 .5em .5em rgba(0, 0, 0, 0.255), .5em .5em .5em rgba(0, 0, 0, 0.318);
 
 }
 
