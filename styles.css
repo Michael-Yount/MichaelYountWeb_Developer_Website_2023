@@ -18,8 +18,15 @@ body {
   float: left;
   border-radius: 10%;
   box-shadow:inset 0 .5em .5em rgba(0, 0, 0, 0.255), .5em .5em .5em rgba(0, 0, 0, 0.318);
-
 }
+
+.picture {
+  position: relative;
+  border-radius: 10%;
+  padding: 5px;
+  box-shadow:inset 0 .5em .5em rgba(0, 0, 0, 0.255), .5em .5em .5em rgba(0, 0, 0, 0.318);
+}
+
 .lead--1 {
   text-align: left;
 }
