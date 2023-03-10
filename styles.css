@@ -21,8 +21,13 @@ body {
 }
 
 .project {
-  margin-top: 5px;
+  margin-top: 10px;
 }
+.project-link{
+  color: rgb(96, 43, 255);
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
 
 .picture {
   position: relative;
