@@ -24,8 +24,13 @@ body {
   margin-top: 10px;
 }
 .project-link{
-  color: rgb(96, 43, 255);
+  color: rgb(6, 116, 2);
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-decoration: none;
+}
+
+a:hover {
+  color: palevioletred
 }
 
 
