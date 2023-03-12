@@ -9,13 +9,44 @@ body {
   background-color: rgba(8, 53, 93, 0.286);
 
 }
+
+/* This is the Grid Layout  */
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+}
+
+.left {
+  grid-column: 1;
+  border: 1px solid red;
+  height: 500px;
+  width: 300px;
+}
+
+.middle {
+  grid-column: 2;
+  border: 1px solid red;
+  height: 500px;
+  width: 300px;
+}
+
+.right {
+  grid-column: 3;
+  border: 1px solid red;
+  height: 500px;
+  width: 300px;
+}
+
 .headshot {
   position: relative;
-  margin-right: 3em;
+  margin: 1em;
   padding: 5px;
   width: 15rem;
   height: 15rem;
-  float: left;
+  display: inline-block;
   border-radius: 10%;
   box-shadow:inset 0 .5em .5em rgba(0, 0, 0, 0.255), .5em .5em .5em rgba(0, 0, 0, 0.318);
 }
@@ -24,7 +55,7 @@ body {
   margin-top: 10px;
 }
 .project-link{
-  color: rgb(6, 116, 2);
+  color: rgb(9, 171, 19);
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   text-decoration: none;
 }
