@@ -11,34 +11,39 @@ body {
 
 }
 
+.logo {
+  height: auto;
+  width: 5em;
+}
+
 /* This is the Grid Layout  */
 
 .grid-container {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 2fr 2fr;
   grid-template-rows: 1fr;
-  grid-column-gap: 0px;
+  grid-column-gap: 3em;
 }
 
 .left {
   grid-column: 1;
-  border: 1px solid red;
-  height: 500px;
-  width: 300px;
+
+  height: auto;
+  width: 100%;
 }
 
 .middle {
   grid-column: 2;
-  border: 1px solid red;
-  height: 500px;
-  width: 300px;
+ 
+  height: auto;
+  width: 100%;
 }
 
 .right {
   grid-column: 3;
   border: 1px solid red;
-  height: 500px;
-  width: 300px;
+  height: auto;
+  width: 100%;
 }
 
 .headshot {
