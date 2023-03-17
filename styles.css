@@ -2,14 +2,21 @@
 body {
   min-height: 75rem;
   padding-top: 4.5rem;
-  font-family: Fira Code;
-  background-color: rgb(203, 207, 211);
+  font-family: 'Lato', sans-serif;
+  background-color: rgb(40, 54, 58);
+  color: aliceblue;
+
 }
 .container-fluid {
-  background-color: rgba(13, 88, 154, 0.603);
+  background-color: rgba(34, 38, 35, 0.948);
   box-shadow: .5em .5em .5em rgba(0, 0, 0, 0.168);
-  color: black;
 
+}
+
+.nav-link {
+  color: rgb(214, 255, 151);
+  font-size: 2em;
+  margin-left: 3em;
 }
 
 .logo {
@@ -96,6 +103,8 @@ a:hover {
   text-align: center;
   margin-top: 3em;
   margin-bottom: 3em;
+  font-size: 1.5em;
+
 }
 
 
@@ -119,7 +128,7 @@ a:hover {
 
   .b-example-divider {
     height: 3rem;
-    background-color: rgba(57, 93, 81, 0.377);
+    background-color: rgba(67, 69, 69, 0.377);
     border: solid rgba(0, 0, 0, 0.226);
     border-width: 1px 0;
     box-shadow: inset 0 .5em 1.5em rgba(19, 49, 87, 0.1), inset 0 .125em .5em rgba(0, 0, 0, .15);
