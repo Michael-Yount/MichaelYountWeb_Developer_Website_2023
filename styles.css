@@ -9,7 +9,7 @@ body {
 }
 .container-fluid {
   background-color: rgba(34, 38, 35, 0.948);
-  box-shadow: .5em .5em .5em rgba(0, 0, 0, 0.168);
+  box-shadow: 1em 1em 1em rgba(0, 0, 0, 0.622);
 
 }
 
@@ -63,10 +63,12 @@ body {
   height: auto;
   display: inline-block;
   border-radius: 5%;
-  box-shadow:inset 0 1em 1em rgba(0, 0, 0, 0.323), 1em 1em 1em rgba(0, 0, 0, 0.367);
+  box-shadow:inset 0 1em 1em rgba(0, 0, 0, 0.483), 1em 1em 1em rgba(0, 0, 0, 0.494);
 }
 .video {
   border-radius: 3%;
+  box-shadow:inset 0 1em 1em rgba(0, 0, 0, 0.483), 1em 1em 1em rgba(0, 0, 0, 0.494);
+
 }
 
 .project {
